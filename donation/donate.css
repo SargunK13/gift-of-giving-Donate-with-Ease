@@ -1,0 +1,737 @@
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Caveat:wght@500&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital@1&family=Ysabeau+Infant:wght@500&display=swap');
+button,body{
+font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(237, 237, 249);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#ask_to_reg a{
+  color:#00715d;
+}
+#ask_to_reg a:hover{
+  text-decoration: underline;
+}
+.navbar{
+  height:95px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:0 20px;
+  background-color:white;
+}
+.nav_items .item {
+  margin-right: 40px;
+  font-size:19px;
+}
+.nav_items .item :last-child{
+  margin-right:0px; 
+}
+.nav_items{
+  display:flex;
+  font-weight: 500;
+  align-items:center;
+  margin-left: 19%;
+}
+@media (min-width:1310px) and (max-width:1390px) {
+.nav_items{
+  margin-left: 15%;
+  font-weight: 450;
+ 
+}  
+
+}
+@media (min-width:1233px) and (max-width:1310px) {
+  .nav_items{
+    margin-left: 10%;
+    font-weight: 400;
+    
+  }  
+  }
+  @media (min-width:1200px) and (max-width:1232px) {
+    .nav_items{
+      margin-left: 7%;
+      font-size:19px;
+      font-weight: 400;
+      
+   }  
+  }
+  @media (min-width:1179px) and (max-width:1200px) {
+      .nav_items{
+        margin-left:6%;
+        font-weight: 350;
+       
+  }  
+  #search{
+    margin-left:8px;
+  }
+  .buttons{
+    font-size:16px;
+  }
+} 
+@media (min-width:1113px) and (max-width:1179px) {
+  .nav_items{
+    margin-left:11%;
+    font-weight: 400;
+   
+} 
+.nav_items .item {
+  margin-right:35px;
+  font-size:15px;
+}
+.buttons{
+font-size:16px;
+}
+} 
+@media (min-width:805px) and (max-width:1008px) {
+.login_heading{
+font-weight: 500;
+}
+#login_logo{
+  margin-left:-100px;
+}
+#Login_2{
+  margin-left:18%;
+}
+
+}
+#main_logo{
+  height:95px;
+}
+.buttons{
+  margin-left:auto;
+  font-size:20px;
+}
+.button-style{
+  background-color: #00715d;
+  color:white;
+  border:none;
+}
+#Home:hover,#About:hover,#Donation:hover,#Blog:hover,#Pages:hover,#Volunteer:hover,#Contact:hover{
+  text-decoration: underline;
+  cursor:pointer;
+  text-decoration-color:#014337;
+  color:#00715d;
+} 
+#search, #login{
+  padding:5px 10px;
+  margin-left:10px;
+  font-size:18px;
+  
+}
+.button-style:hover{
+  cursor:pointer;
+  transition: 0.3s ease;
+  background-color:white ;
+  color:#00715d; 
+  border:1px solid #00715d;
+}
+#search
+{
+  margin-left:125px;
+    border-radius: 35px; 
+    height:40px;
+    width:55px;
+  }
+
+#login{
+  margin-left: 15px;
+  border-radius:35px;
+  height:38px;
+}
+
+.login_background{
+ height:230px;
+ background-image: url('login_half_background_2.jpg');
+ opacity:0.6;
+ background-size: cover;
+ background-position: center;
+}
+.login_form, .registration_form, .Donation_form{
+  width:100%;
+  background-color: #f5f5f5;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_form{
+  height:650px;
+}
+.registration_form{
+  height:820px;
+}
+.login_box, .registration_box, .verification_box, .Donation_box{
+  margin-top: 40px;
+  background-color:white;
+  border-radius:8px;
+  box-shadow: 1px 0px 12px 2px #dadada;
+}
+.login_box{
+  width:37%;
+  height:520px;
+}
+.registration_box, .verification_box{
+  width:35%;
+}
+.registration_box{
+height:710px;
+}
+.verification_box{
+  height:620px;
+}
+.login_heading, .registration_heading{
+  display:flex;
+  margin-left:140px;
+margin-top: 12px;
+font-weight:600;
+}
+#login_logo{
+  margin-right:10px;
+  height: 100px;
+}
+.login_heading p{
+  font-size: 18px;
+  margin-top:35px;
+}
+.login_content,.registration_content,.donation_content{
+  margin-top:12px;
+  font-size:16px;
+  padding-left: 40px;
+}
+.login_content{
+  line-height: 0.4;
+}
+.registration_content{
+  line-height: 0.2;
+}
+.input_box, .r_input_box{
+  border-radius:5px;
+  border: 1px solid black;
+  width:85%;
+  line-height:2.4;
+}
+.input_box{
+  width:85%;
+  line-height:2.4;
+  padding-left:8px;
+}
+.r_input_box{
+  width:88%;
+  line-height:2.6;
+  padding-left:10px;
+  margin-bottom:20px;
+}
+#email,#password,#re_password, #name, #otp_digit_1, #otp_digit_2, #otp_digit_3, #otp_digit_4{
+  background-color: rgb(247, 247, 247);
+}
+#p_name{
+  margin-top:24px;
+}
+.placeholder{
+  color:rgb(95, 94, 94); 
+}
+#pass{
+  margin-top:40px;
+}
+#forgot_pass{
+  color:#00715d;
+}
+#forgot_pass:hover{
+  text-decoration: underline;
+}
+#forgot_pass:hover{
+  cursor:pointer;
+}
+
+#login_2{
+  margin-left:35%;
+  margin-top:18px;
+  margin-bottom: 30px; 
+  border-radius:15px;
+  height:38px;
+  width:95px;
+  font-size:18px;
+}
+#register_2,#reset_btn{
+  margin-top:8px;
+  margin-bottom: 20px; 
+  border-radius:10px; 
+  font-size:16px;
+}
+#register_2{
+  height:48px;
+  width:116px;
+  margin-left:31%;
+  font-weight:bold;
+}
+#reset_btn{
+  height:45px;
+  width:80%;
+  margin-left:5%;
+  font-weight: 500;
+}
+#ask_to_reg, #ask_to_login{
+  margin-left:22%;
+  font-size:14px;
+  color:rgb(120, 120, 120);
+}
+#ask_to_login{
+  margin-left:33%;
+}
+#sign_in_options{
+  margin-left:35%;
+  margin-top:30px;
+  font-weight:500;
+  color:rgb(96, 94, 94);
+}
+#gmail_btn{
+  margin-left:20%;
+}
+.sign_in{
+  margin-top: 12px;
+  margin-right:15px;
+  height:45px;
+  width:45px;
+  border: 1px solid rgb(174, 174, 174);
+  background-color: white; 
+  border-radius:22px;
+}
+.sign_in:hover{
+  background-color:#00715d;
+  color:white;
+  transition: 0.3s ease;
+  cursor:pointer;
+}
+#google_login{
+ background-color: white;
+ color:black;
+ font-size: 16px;
+}
+#google_login:hover{
+  cursor:pointer;
+  transition: 0.3s ease;
+  background-color:#00715d;
+  color:white; 
+  border:1px solid #00715d;
+}
+.bottom_container{
+  height:560px;
+  width:100%;
+  background-color:rgb(1, 29, 1);
+  color:white; 
+}
+.bottom_nav{
+  height:120px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px 20px;
+}
+.bottom_nav_container{
+  padding: 0 40px;
+}
+.bottom_nav_items{
+display:flex;
+flex-direction: row;
+  font-weight: 450;
+  align-items:center;
+  margin-right:400px;
+  flex-grow: 0.1;
+}
+.bottom_nav_items .b_item {
+  margin-right: 30px;
+  margin-top: 18px;;
+  font-size:19px;
+}
+#login_logo_2{
+  margin-top:18px;
+  margin-left:50px;
+  height: 80px;
+  width:130px;
+  border-radius: 4px;
+}
+#donate_button{
+  float: right;
+  margin-top:-82px;
+  margin-right:30px;
+  width:120px;
+  height: 50px;
+  border-radius:10px;
+  font-size:18px;
+  font-weight: bold;
+  background-color:#00715d; 
+  color:white;
+}
+#donate_button:hover{
+  cursor:pointer;
+  transition: 0.3s ease;
+  background-color:black ;
+  color:white; 
+  border:1px solid #00715d;
+}
+#Home_2:hover, #Donation_2:hover, #About_2:hover, #Blog_2:hover, #Contact_2:hover{
+  color:rgb(224, 199, 12);
+  cursor:pointer;
+  transition: 0.2s ease;
+  }
+hr{
+  width:92%;
+  border:none;
+  border-top:1px solid rgb(75, 78, 75); 
+}
+.footer {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  margin-top:30px;
+}
+#footer-content{
+  margin-left:70px;
+}
+.footer_icons{
+  margin-right:80px;
+}
+.footer_icon{
+  height:32px;
+  width:35px;
+  margin-right:10px;
+  border-radius:10px;
+  border:none;
+  background-color: rgb(49, 48, 48);
+  color:white;
+}
+.footer_icon:hover{
+  background-color:rgb(224, 199, 12);
+  color: rgb(49, 48, 48);
+  cursor:pointer;
+  transition: 0.3s ease;
+}
+.extra_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.extra_links ul:hover{
+  cursor:pointer;
+}
+.link_1,.link_2{
+  display: flex;
+  flex-direction: column;
+}
+#link_heading{
+  margin-top:48px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.link_1 ul,.link_2 ul,.link_3 ul{
+  list-style: none;
+  line-height: 2.2;
+  margin-top:-5px;
+}
+.grey_color{
+  color:grey;
+}
+.link_3_icons{
+  margin-right:10px;
+  height:28px;
+  width:30px;
+  margin-right:10px;
+  border-radius:10px;
+  border:none;
+  background-color: rgb(49, 48, 48);
+  color:white;
+}
+.link_3_icons:hover{
+  cursor:pointer;
+}
+.otp_digits{
+  display:flex;
+  width:50%;
+  
+}
+#otp_digit_1, #otp_digit_2, #otp_digit_3, #otp_digit_4{
+  margin-right:8px;
+}
+
+/*
+ volunteer page css                                         
+*/
+.volunteers{
+  margin-top: 40px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+ 
+}
+#names{
+  color:#090e0d;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  border-right:1px solid rgb(162, 160, 160);
+  margin-top: 24px;
+  height:5vh;
+  width:14vw;
+  padding: none;
+  transition: color 0.2S ease-in;
+}
+#names:hover{
+  cursor:pointer;
+  color:#00715d;
+}
+.vol{
+  margin-bottom: 20px;
+}
+.vol_img{
+  margin-right:30px;
+  height:38vh;
+  border-radius:15px;
+  transition: opacity 0s ease-in;
+}
+.vol_img:hover{
+  cursor:pointer;
+  opacity: 0.6;
+  height:40vh;
+}
+.icon_wrap{
+  display: flex;
+}
+#share{
+  font-size: large;
+  height:5vh;
+  width:2.5vw;
+  border:none;
+  border-radius:65px;
+  margin-left:20px;
+  margin-top:23px;
+  padding-left:7px;
+  padding-top:4px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  background-color:#d8dbe0;
+}
+#share:hover,.next_page_btns:hover{
+  color:white;
+  background-color: #00715d;
+  cursor:pointer;
+}
+.next_page{
+  display:flex;
+  margin-top:30px;
+  margin-left:30px;
+  margin-bottom:80px;
+}
+.next_page_btns{
+  margin-right:15px;
+  height:7vh;
+  width:4vw;
+  border:1px solid #bec0c0;
+  border-radius:120px;
+  background-color: white;
+  font-size:18px;
+}
+#btn-1{
+  color:white;
+  background-color: #00715d;
+}
+.next_page_btns:hover{
+  transition: 0.2s ease-out;
+}
+
+/*DONATION PAYMENT BOX STYLING*/
+.Donation_box{
+  height:150vh;
+  width:60vw;
+}
+.Donation_form{
+  height:165vh;
+}
+/*Header area of the donation box*/
+/*id=donation_box_logo refers to the logo on the top left corner of the donation box*/
+#donation_box_logo{
+  margin-left:50px;
+  margin-right:160px;
+  height: 12vh;
+  width:8vw;
+  border-radius: 4px;
+}
+/*class=Donation_box_heading refers to the section containing logo and the text: Donate Now*/
+.Donation_box_heading{
+  display: flex;
+  flex-direction: row;
+  height:16vh;
+  align-items: center;
+}
+/*id ="donation_box_heading_text" refers to the text:Donate Now! in the heading */
+#donation_box_heading_text{
+  font-size:36px;
+  font-weight: 550;
+  margin-top: 52px; 
+}
+/*id ="donation_hr" refers to hr which is use to seperate heading section from main section*/
+#donation_hr{
+  width:90%;
+  margin-top:-10px;
+  margin-right: 35px;
+}
+/*Header area ends here*/
+
+/*id=quote refers to the text that will appear on the top of donation box*/
+#quote{
+  text-align:center;
+  font-size:20px;
+  font-weight: 400;
+}
+/*class="donation_duration" refers to buttons created for the duration of donation namely One time or Monthly donation*/
+.donation_duration{
+height:8vh;
+width:27vw;
+border-radius:8px;
+border:none;
+background-color:white;
+color:#00715d;
+border: 2px solid#00715d;
+font-weight:600;
+font-size: 19px;
+transition: background-color 0.2s ease-in, color 0.2s ease-in ;
+}
+.donation_duration:hover{
+  cursor:pointer;
+  background-color:#00715d;
+color:white;
+}
+/*id="monthly_donation" refers to the button with text: Donate monthly; creating space between two buttons*/
+#monthly_donation{
+  margin-left:10px;
+}
+
+/*Main section starts here*/
+/*class="monthly_donation" refers to the Box containing necessary tags and information for donation*/
+.inside_donation_box{
+  margin-top:33px;
+  margin-left:-18px;
+  padding:12px;
+  height:93vh;
+  width:55vw;
+  border:1px solid black; 
+  border-radius: 8px;
+}
+.donation_amount{
+  display: flex;
+  justify-content: space-around;
+}
+.suggested_donation{
+height:5vh;
+width:12vw;
+border-radius:18px;
+border:1px solid #00715d;
+margin-top:10px;
+font-size:16px;
+background-color: white;
+box-shadow: 5px 5px 10px 2px rgb(201, 201, 202);
+transition: background-color 0.1s ease-out, color 0.1s ease-out ;
+}
+.suggested_donation:hover{
+  cursor:pointer;
+  background-color:#00715d;
+color:white;
+}
+.methods_for_payment{
+  height:4vh;
+  width:7vw;
+  border:none; 
+}
+.payment_btns{
+  background-color: white;
+  border:1px solid black;
+  border-radius:4px;
+  margin-right:12px;
+}
+#paypal_btn{
+  margin-left:10px;
+}
+.amount_entry{
+  margin-top:30px;
+  margin-bottom:20px;
+}
+#d_text{
+  margin-left:18px;
+  margin-bottom:10px;
+  font-size: large;
+}
+#amount{
+  height:6vh;
+  width:53vw;
+  margin-left:16px;
+  border-radius:6px;
+  padding:12px;
+  font-size:16px;
+}
+.d_input_style{
+  border:1px solid rgb(179, 177, 177);
+  background-color: rgb(251, 251, 251);
+}
+.per_information:focus,#amount:focus{
+  background-color: rgb(243, 243, 243);
+}
+#min_amount{
+  text-align: center;
+  color:red;
+  font-weight: 500;
+}
+.name_email{
+  display: flex;
+  justify-content: space-around;
+}
+.per_information{
+  width:22vw;
+  height:5vh;
+  margin-bottom: 12px;
+  font-size:15px;
+  padding:6px;
+  border-radius:8px;
+}
+.input_elements p{
+  margin-left:6px;
+  font-size: large;
+}
+.donation_options{
+  display:flex;
+  margin-left:15px;
+  margin-top:40px;
+}
+.donation_options p{
+  margin-right:12px;
+  font-size: 17px;
+}
+.cause_for_donation{
+  margin-top: 4px;
+  width:25vw;
+  padding-left:12px;
+  font-size: 15px;
+}
+.payment_method{
+  margin-top:40px;
+}
+.payment_btns:focus{
+  border:2.5px solid #00715d;
+}
+.payment_btns:hover{
+  cursor:pointer;
+  border:2px solid #00715d;
+  
+}
+#submit_btn{
+  height:8vh;
+  width:20vw;
+  margin-left:31%;
+  font-weight:500;
+  font-size:20px;
+  margin-top:56px;
+  border-radius: 18px;
+}
+
